@@ -16,6 +16,8 @@ import time
 # use the USR LED (yellow)
 led = digitalio.DigitalInOut(board.LED)
 
+# pin - GP25
+
 # default pin mode is input, so we need to change it to output
 led.direction = digitalio.Direction.OUTPUT
 
